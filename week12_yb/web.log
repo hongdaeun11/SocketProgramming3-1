@@ -1,0 +1,35 @@
+STATUS REQUEST GET /control.html HTTP/1.1
+Host: 223.194.166.26:9019
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+
+ 493
+STATUS RESPONSE HTTP/1.0 200 OK
+ 14730
+STATUS RESPONSE content-type: text/html
+
+ 14730
+STATUS REQUEST GET /control.html?LED=LED_ON&BUZ=BUZ_OFF HTTP/1.1
+Host: 223.194.166.26:9019
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://223.194.166.26:9019/control.html
+Accept-Encoding: gzip, deflate
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+
+ 540
+STATUS LED LED 켜짐 0
+STATUS BUZ 부저 꺼짐 0
+STATUS RESPONSE HTTP/1.0 200 OK
+ 14730
+STATUS RESPONSE content-type: text/html
+
+ 14730
+ERROR ERROR can not receive data from web browser 0
